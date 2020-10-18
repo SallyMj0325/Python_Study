@@ -1,4 +1,4 @@
-#이건 뭐에여
+#
 a = "김민정"
 print(a)
 
@@ -36,8 +36,21 @@ print( y[0] + y[1] + y[2] + y[3] )
 print( y[0:4] )
 print( y[19:] )
 
+# 숫자 바로 대입
+h = "I eat %d apples" %3
+print( h )
 
+#문자열 바로 대입
+j = "I eat %s apples" % "five"
+print( j )
 
+#숫자 값을 나타내는 변수로 대입
+number = 3
+meat = "I eat %d apples" % number
+print( meat )
 
-
-
+#2개 이상의 값 넣기
+number = 10
+day = "three"
+good = "I ate %d apples. so I was sick for %s days." % ( number, day )
+print( good )
