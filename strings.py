@@ -81,6 +81,7 @@ print( gg )
 number = 4
 fg = "I wat {0} apples".format(number)
 print( fg )
+
 # 2개 이상의 값 넣기
 number = 11
 day = "six"
@@ -94,7 +95,6 @@ print( fh )
 # 인덱스와 이름을 혼용해서 넣기
 jh = "I ate {0} apples. so I was sick for {day} days.".format(10, day=5)
 print( jh )
-
 
 # 왼쪽 정렬
 pp = "{0:>10}".format("hi")
@@ -112,3 +112,12 @@ print( jw )
 y = 3.42134234
 gq=  "{0:0.4f}".format(y)
 print( gq )
+
+# { 또는 } 문자 표현하기
+do = "{{ and }}".format()
+print( do )
+
+# 문자 개수 세기
+a = "hobby"
+a = a.count('b')
+print( a )
