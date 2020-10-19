@@ -121,3 +121,10 @@ print( do )
 a = "hobby"
 a = a.count('b')
 print( a )
+
+# 위치 알려주기 1(find)
+a = "Python is the best choice"
+a = a.find('b')
+print( a )
+
+
