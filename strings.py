@@ -126,5 +126,14 @@ print( a )
 a = "Python is the best choice"
 a = a.find('b')
 print( a )
+a = "PYthon is the best choice"
+a = a.find('k')
+print( a )
 
-
+# 위치 알려주기 2(index)
+a = "Life is too short"
+a = a.index('t')
+print( a )
+a = "Life is too short"
+a = a.index('k')
+print( a )
