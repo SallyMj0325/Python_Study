@@ -40,17 +40,75 @@ print( y[19:] )
 h = "I eat %d apples" %3
 print( h )
 
-#문자열 바로 대입
+# 문자열 바로 대입
 j = "I eat %s apples" % "five"
 print( j )
 
-#숫자 값을 나타내는 변수로 대입
+# 숫자 값을 나타내는 변수로 대입
 number = 3
 meat = "I eat %d apples" % number
 print( meat )
 
-#2개 이상의 값 넣기
+# 2개 이상의 값 넣기
 number = 10
 day = "three"
 good = "I ate %d apples. so I was sick for %s days." % ( number, day )
 print( good )
+
+# 정렬과 공백
+rt = "%10s" % "hi"
+print( rt )
+
+qw = "%-10s jane" % 'hi'
+print( qw )
+
+# 소수점 표현하기
+sd = "%0.4f" % 3.24134234
+print( sd )
+
+df = "%10.4f" %3.24134234
+print( df )
+
+# 숫자 바로 대입하기
+qs = "I eat {0} apples".format(3)
+print( qs )
+
+# 문자열 바로 대입하기
+gg = "I eat {0} apples".format("five")
+print( gg )
+
+# 숫자 값을 가진 변수로 대입하기
+number = 4
+fg = "I wat {0} apples".format(number)
+print( fg )
+# 2개 이상의 값 넣기
+number = 11
+day = "six"
+ff = "I ate {0} apples. so I was sick for {1} days.".format(number, day)
+print( ff )
+
+# 이름으로 넣기
+fh = "I ate {number} apples. so I was sick for {day} days.".format(number=12, day=3)
+print( fh )
+
+# 인덱스와 이름을 혼용해서 넣기
+jh = "I ate {0} apples. so I was sick for {day} days.".format(10, day=5)
+print( jh )
+
+
+# 왼쪽 정렬
+pp = "{0:>10}".format("hi")
+print( pp )
+
+# 오른쪽 정렬
+kk = "{0:^10}".format("hi")
+print( kk )
+
+# 공백 채우기
+jw = "{0:=^10}".format("hi")
+print( jw )
+
+# 소수점 표현하기
+y = 3.42134234
+gq=  "{0:0.4f}".format(y)
+print( gq )
