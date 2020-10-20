@@ -134,6 +134,48 @@ print( a )
 a = "Life is too short"
 a = a.index('t')
 print( a )
-a = "Life is too short"
-a = a.index('k')
+
+# 문자열 삽입(join)
+a = ",".join('abcd')
 print( a )
+a = ",".join(['a', 'b', 'c', 'd'])
+print( a )
+
+# 소문자를 대문자로 바꾸기(upper)
+a = "hi"
+a = a.upper()
+print( a )
+
+# 대문자를 소문자로 바꾸기(lower)
+a = "Hi"
+a = a.lower()
+print( a )
+
+# 왼쪽 공백 지우기(lstrip)
+a = " hi "
+a = a.lstrip()
+print( a )
+
+# 오른쪽 공백 지우기(rstrip)
+a = " hi "
+a = a.rstrip()
+print( a )
+
+# 양쪽 공백 지우기(strip)
+a = " hi "
+a = a.strip()
+print( a )
+
+# 문자열 바꾸기(replace)
+a = "Life is too short"
+a = a.replace("Life", "Your leg")
+print( a )
+
+# 문자열 나누기(split)
+a = "Life is too short"
+a = a.split()
+print( a )
+b = "a:b:c:d"
+b = b.split(':')
+print( b )
+
