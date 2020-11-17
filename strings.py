@@ -79,7 +79,7 @@ print( gg )
 
 # 숫자 값을 가진 변수로 대입하기
 number = 4
-fg = "I wat {0} apples".format(number)
+fg = "I eat {0} apples".format(number)
 print( fg )
 
 # 2개 이상의 값 넣기
